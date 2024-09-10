@@ -1,0 +1,112 @@
+/* Container for flex layout */
+.titlebg{
+  position: relative;
+  .backgroundImage{
+    // position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+    
+
+    // background-position: center;
+    
+    // min-height: 100vh;
+}
+.MainBody{
+  position: relative;
+  font-family: "EB Garamond", serif;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  color: black;
+  color: azure;
+  @media (max-width: 1200px) {
+    top: 45%;
+  }
+  .title{
+    font-size: 100px;
+    margin-bottom: 200px;
+    justify-content: center;
+    text-align: center;
+    @media (max-width: 1200px) {
+      margin-bottom: 150px;
+    }
+    @media (max-width: 850px) {
+      font-size: 70px;
+    }
+    @media (max-width: 720px) {
+      margin-top: -40px;    
+    }
+    @media (max-width: 620px) {
+      font-size: 40px;
+    }
+    @media (max-width: 500px) {
+      margin-bottom: 70px;
+    }
+  }
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px;  /* Adjust as needed */
+    z-index: 2000; /* Ensure it appears above other content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .whatsapp-button img {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main{
+    margin-top: 200px;
+    color: black;
+    @media (max-width: 1120px) {
+      margin-top: 100px;
+    }
+    @media (max-width: 992px) {
+      margin-top: 100px;
+    }
+
+    .motto{
+      font-style: italic;
+      font-size: 12px;
+    }
+
+    .location{
+      font-size: 50px;
+      margin: 30px 30px;
+      @media (max-width: 620px) {
+        font-size: 40px;
+      }
+    }
+    .mainText{
+      padding-left: 120px;
+      padding-right: 120px;
+      @media (max-width: 800px) {
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      @media (max-width: 600px) {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+    }
+  }
+
+  
+}
+
+  
+}
+  
+  
+  
+  

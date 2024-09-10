@@ -1,0 +1,19 @@
+.header{
+    height: 300px;
+    background-image: url('../images/2nd\ background.jpg');
+    background-position: 50% 50%;
+//   background: linear-gradient(to bottom, #2e558b, #61a2f0); /* Gradient from left to right */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #004aad;
+  font-size: 50px;
+  font-family: "EB Garamond", serif;
+}
+
+.subheader{
+    display: none;
+}
+.row{
+  align-items: center;
+}

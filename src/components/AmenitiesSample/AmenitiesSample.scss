@@ -1,0 +1,49 @@
+.worldclass{
+    font-style: italic;
+    margin-top: 200px;
+    margin-bottom: -5px;
+    font-family: "EB Garamond", serif;
+    font-size: 12px;
+}
+.amenities{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.roomTitle{
+    font-size: 50px;
+    margin: 0;
+    font-family: "EB Garamond", serif;
+}
+.card{
+    width: 100%;
+    // .col-md-10{
+    //     @media (max-width: 768px) {
+    //         order:;
+    //     }
+    }
+    .card-body{
+        width: 100%;
+
+    }
+
+.g-0{
+    justify-content: center;
+    img{
+        border-radius: 10px;
+    }
+    .same{
+        flex: 1;
+    }
+    .card-title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        
+    }
+    .card-text{
+        border-radius: 10px;
+    }
+    
+}

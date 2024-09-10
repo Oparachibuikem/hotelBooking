@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/hotel-booking/static/css/main.3ae57761.css",
+    "main.js": "/hotel-booking/static/js/main.6ac20e3e.js",
+    "static/media/bgvideo.mp4": "/hotel-booking/static/media/bgvideo.daf788bd00454639c039.mp4",
+    "static/media/swimming.jpg": "/hotel-booking/static/media/swimming.1a2e392b1d99e8630895.jpg",
+    "static/media/2nd background.jpg": "/hotel-booking/static/media/2nd background.49eab3bc05f716485a3e.jpg",
+    "static/media/beachview.jpg": "/hotel-booking/static/media/beachview.8290ddd708c7cfbaed3a.jpg",
+    "static/media/gym.jpg": "/hotel-booking/static/media/gym.258a807fec3cdb571887.jpg",
+    "static/media/conference.jpg": "/hotel-booking/static/media/conference.ea5b604a91e1482e02cb.jpg",
+    "static/media/bedroom4.jpg": "/hotel-booking/static/media/bedroom4.3493930f4f3ca2241667.jpg",
+    "static/media/bedroom3.jpg": "/hotel-booking/static/media/bedroom3.b7b5b901e727ae0b2793.jpg",
+    "static/media/bedroom2.jpg": "/hotel-booking/static/media/bedroom2.533539fa3fd3b37ccc2c.jpg",
+    "static/media/nightclub.jpg": "/hotel-booking/static/media/nightclub.4c77513af5f55c16889b.jpg",
+    "static/media/reception.jpg": "/hotel-booking/static/media/reception.f924fb4082ae50714be3.jpg",
+    "static/media/bar.jpg": "/hotel-booking/static/media/bar.b72362218efd57a4db8f.jpg",
+    "static/media/bedroom.jpg": "/hotel-booking/static/media/bedroom.a6a1978716f168b70cb4.jpg",
+    "static/media/logo.svg": "/hotel-booking/static/media/logo.d3e64219d8c57b0e1582bc278ee66f72.svg",
+    "static/media/whatsapp.svg": "/hotel-booking/static/media/whatsapp.6f07426c509d5136490ea603f0795a4e.svg",
+    "static/media/wifi.svg": "/hotel-booking/static/media/wifi.60d223a430257be32878fad8f41d7460.svg",
+    "static/media/contact.svg": "/hotel-booking/static/media/contact.4a8b68b9b996412d16215723246f225d.svg",
+    "static/media/phone.svg": "/hotel-booking/static/media/phone.58fb74b3c578d6606fa1313fab819ca0.svg",
+    "index.html": "/hotel-booking/index.html",
+    "static/media/bed.svg": "/hotel-booking/static/media/bed.ef2031f184ec7eb98923be949e45209b.svg",
+    "static/media/location.svg": "/hotel-booking/static/media/location.75db76a783e3fc2123eea55fbc0695a5.svg",
+    "static/media/email.svg": "/hotel-booking/static/media/email.221629cebdc595aec43044068e4db136.svg",
+    "static/media/payment.svg": "/hotel-booking/static/media/payment.1b6b087faeb8b6ccba523f738a467148.svg",
+    "main.3ae57761.css.map": "/hotel-booking/static/css/main.3ae57761.css.map",
+    "main.6ac20e3e.js.map": "/hotel-booking/static/js/main.6ac20e3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ae57761.css",
+    "static/js/main.6ac20e3e.js"
+  ]
+}

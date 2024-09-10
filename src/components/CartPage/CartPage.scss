@@ -1,0 +1,166 @@
+
+// .form-group{
+// margin-left: 50px;
+// margin-top: 20px;
+// .dateheader{
+//     margin-right: 10px;
+// }
+// label{
+//     margin-right: 4px;
+// }
+//     .dateRang{
+//         margin-top: 30px;
+
+//     }
+// }
+// .dateRang{
+//     margin-left: 5px;
+//     border: 1px solid #004aad;
+//     display: inline-block;
+//     background: white;
+//     padding: 5px;
+// }
+
+// .details{
+//     display: inline-block;
+//     align-items: center;
+
+//     input{
+//         max-width: 15%;
+//     }
+// }
+// .inputG{
+//     flex-basis: 50%;
+//     max-width: 48%;
+//     display: inline-block;
+//     justify-content: space-around;
+//     margin: 18px 0px;
+//     margin-left: 10px;
+//     position: relative;
+//     button{
+//         background-color: #004aad;
+//     }
+//     // input, textarea{
+//     //     width: 100%;
+//     //     font-size: 18px;
+//     //     padding: 2px 0px;
+//     //     background-color: #eee;
+//     //     border: none;
+//     //     border-bottom: 2px solid #666;
+//     //     outline: none;
+        
+//     // }
+//     // textarea{
+//     //     resize: none;
+//     //     height: 120px;
+//     //     display: block;
+//     //     padding-top: 89px;
+
+//     // }
+// }
+
+
+// .halfwidth{
+//     flex-basis: 48%;
+   
+// }
+.CartPage{
+    .header{
+        text-align: center;
+    }
+    // margin: auto;
+.bookingDetails{
+    display: grid;
+    justify-content: center;
+    // background-color: grey;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    @media (max-width: 770px) {
+        display: block;
+        padding: 0px;
+            }
+    
+    .title{
+        display: grid;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    form {
+        width: 100%; /* Adjust the form width as needed */
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Adds space between each field group */
+        @media (max-width: 770px) {
+            width: 100%;
+                }
+      }
+      
+      .fields, .fields2, .fields3, .fields4 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px; /* Adds space between input fields */
+        @media (max-width: 770px) {
+            display: block;
+            width: 100%;
+                }
+      }
+      .dateRang {
+        position: relative;
+      }
+      
+      .dateRang {
+        position: relative;
+      }
+      
+      .datePicker {
+        position: absolute;
+        top: 100%; /* Position below the span */
+        left: 0;
+        z-index: 10; /* Ensure it appears above other content */
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s, visibility 0.3s; /* Smooth transition */
+      }
+      
+      .dateRang.open .datePicker {
+        opacity: 1;
+        visibility: visible;
+      }
+      
+      .inputFields {
+        flex: 1; /* Makes each input field take up equal space */
+        min-width: 150px; /* Ensures the fields don't get too small */
+        @media (max-width: 770px) {
+            margin: 10px;      
+        }
+        .date{
+            background: white;
+            padding: 10px;
+            border-radius: 50px;
+        }
+        .dropdown{
+            border-radius: 50px;
+            width: 100%; /* Ensures the input fields stretch to fill their container */
+            padding: 10px;
+            box-sizing: border-box;
+
+            option{
+                margin-left: 0px;
+            }
+        }
+    }
+      
+      input {border: none;
+        border-radius: 50px;
+        width: 100%; /* Ensures the input fields stretch to fill their container */
+        padding: 10px;
+        box-shadow: -15px -15px -15px rgba(255, 255, 255, 0.2),15px 15px 15px rgba(0,0,0,0.1);
+
+        box-sizing: border-box;
+      }
+      
+}}

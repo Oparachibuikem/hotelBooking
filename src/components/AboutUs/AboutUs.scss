@@ -1,0 +1,26 @@
+.div{
+    font-family: "EB Garamond", serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .header{
+        font-size: 50px;
+    }
+    .mottto{
+        font-style: italic;
+        font-size: 12px;
+      }
+  
+      .location{
+        font-size: 50px;
+        margin: 30px 30px;
+      }
+      .mainText{
+        margin-top: 100px;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-bottom: 100px;
+  
+      }
+}

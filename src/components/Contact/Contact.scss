@@ -1,0 +1,134 @@
+div{font-family: "EB Garamond", serif;
+.container{
+    font-family: "EB Garamond", serif;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center; 
+    align-items: center;
+    padding: 30px 8%;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1100px;
+
+        .col{
+            display: flex;
+            flex-direction: column;
+            
+            .contactTitle{
+
+                h2{
+                position: relative;
+                font-size: 28px;
+                display: inline-block;
+                margin-bottom: 25px;
+
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 50%;
+                    height: 1px;
+                    background-color: #888;
+                    top: 120%;
+                    left: 0;
+                }
+                
+                &::after{
+                    content: '';
+                    position: absolute;
+                    width: 25%;
+                    height: 3px;
+                    background-color: #004aad;
+                    top: calc(120% - 1px);
+                    left: 0;
+                }
+            }
+
+            p{
+                font-size: 17px;
+                padding-bottom: 22px;
+            }
+        }
+        }
+        .left{
+            flex-basis: 25%;
+            // min-width: 320px;
+            // margin-right: 60px;
+
+            .contactInfo{
+                margin-bottom: 16px;
+
+                .iconGroup{
+                    display: flex;
+                    align-items: center;
+                    margin: 25px 0px;
+                    .icon{
+                        // width: 45px;
+                        // height: 45px;
+                        border: 1.5px solid #004aad;
+                        border-radius: 50%;
+                        padding: 3px;
+                        margin: 5px;
+                        margin-right: 10px;
+
+                        
+
+                    }.details{
+                            span{
+                                display: block;
+                                font-size: 18px; 
+                            }
+                        }
+                }
+            }
+
+
+        }
+        .right{
+            // flex-basis: 60%;
+            min-width: 420px;
+            .messageForm{
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                padding-top: 130px;
+                
+                .inputGroup{
+                    margin: 18px 0px;
+                    position: relative;
+                    button{
+                        background-color: #004aad;
+                    }
+                    input, textarea{
+                        width: 100%;
+                        font-size: 18px;
+                        padding: 2px 0px;
+                        background-color: #eee;
+                        border: none;
+                        border-bottom: 2px solid #666;
+                        outline: none;
+                        
+                    }
+                    textarea{
+                        resize: none;
+                        height: 120px;
+                        display: block;
+                        padding-top: 89px;
+
+                    }
+                }
+               
+                
+                .halfwidth{
+                    flex-basis: 48%;
+                   
+                }
+                .fullwidth{
+                    flex-basis: 100%;
+                }
+            }
+        }
+     }
+}}
